@@ -16,6 +16,10 @@ I translate a web novel, and every new chapter had to be posted by hand on every
 4. **Schedule releases.** Chapters can be spread out on a release schedule: a start date and time, how many chapters per release, and how many days between releases (for example, two chapters every seven days at noon). Scheduled posts are stored and fired by Chrome alarms, and anything missed while the browser was closed is posted on the next launch and marked as late.
 5. **Recover from failures.** Progress is saved after every chapter, so a failed chapter can be retried on its own instead of restarting the whole sync.
 
+## A note on the code
+
+WebNovelSync was kind of my unofficial first project, so almost everything lives in one big `background.js` (about 7,700 lines). I kept adding platforms to it as I went instead of splitting it into modules. Sorry for the inconvenience if you're reading through it. Each platform still has its own posting function, so searching for `postToRoyalRoad`, `postToAO3`, and so on is the easiest way to find your way around.
+
 ## How it works
 
 ```
