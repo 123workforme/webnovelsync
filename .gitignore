@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.mcp.json
+node_modules/
+dist/
+*.zip
+.DS_Store
+.vercel/
+
+# not part of the extension
+69shuba-bookmarklet.js
+69shuba-bookmarklet-minified.txt
+69shuba-extension/
+CHAPTER_POSTING_ANALYSIS.md

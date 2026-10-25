@@ -1,0 +1,20 @@
+{
+  "name": "wntomp",
+  "version": "1.0.0",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "keywords": [],
+  "author": "michael",
+  "license": "ISC",
+  "description": "Sync chapters between multiple web novel platforms: extract from Webnovel, ScribbleHub, AO3, FanFiction.net, and RoyalRoad; post to ScribbleHub, FanFiction.net, AO3, RoyalRoad, and Webnovel",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^5.2.2"
+  }
+}

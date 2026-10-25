@@ -1,0 +1,22 @@
+{
+  "name": "webnovelsync-website",
+  "version": "1.0.0",
+  "description": "WebnovelSync Website",
+  "scripts": {
+    "start": "cd client && npm start",
+    "dev": "cd client && npm start",
+    "test": "cd client && npm test",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "webnovel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^5.8.2"
+  }
+}
